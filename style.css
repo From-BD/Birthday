@@ -98,3 +98,40 @@ button {
 .dark p {
   color: #ccc;
 }
+.container {
+  animation: appear 1s ease;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.profile {
+  animation: profileMove 2s infinite alternate;
+}
+
+@keyframes profileMove {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.buttons a {
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  transform: scale(1.05);
+}
