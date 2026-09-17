@@ -1,2 +1,1 @@
-# Birthday
-Boy happy to wish
+myphoto.jpg
